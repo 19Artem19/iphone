@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Segoe WP N';
+    src: url('../fonts/SegoeWPN.woff2') format('woff2'), url('../fonts/SegoeWPN.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe WP';
+    src: url('../fonts/SegoeWP.woff2') format('woff2'), url('../fonts/SegoeWP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe WP';
+    src: url('../fonts/SegoeWP-Light.woff2') format('woff2'), url('../fonts/SegoeWP-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}

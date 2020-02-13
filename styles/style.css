@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px/normal 'Segoe WP N', sans-serif;
+    font: 14px/normal 'Segoe WP', sans-serif;
+}
+
+.header-wrapper {
+    width: 976px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.blue {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #5094f2;
+    display: block;
+    position: relative;
+    margin-top: 8px;
+}
+
+.header-logo {
+    display: flex;
+    padding-top: 10px;
+}
+
+.blue::before {
+    content: '“';
+    top: -5px;
+    left: 9px;
+    position: absolute;
+    color: #fff;
+    font: 64px/normal 'Source Sans Pro', sans-serif;
+}
+
+.header-logo p {
+    font: 300 42px 'Segoe WP', sans-serif;
+    padding-left: 15px;
+}
+
+.header-navigation {
+    width: 442px;
+}
+
+.header-navigation ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-navigation li a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font: 20px/normal 'Segoe WP N', sans-serif;
+}
+
+.header-navigation li a:hover {
+    border-bottom: 3px solid #5094f2;
+    padding-bottom: 18px;
+}
+
+.header-navigation {
+    padding-top: 42px;
+}
+
+.menu-wrapper {
+    background: url(../images/dsfsdfsdfds.png) no-repeat 50% 0;
+    min-height: 474px;
+    margin: auto;
+}
+
+.sign a::before {
+    content: "";
+    background: url(../images/Shape\ 2.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin-left: 15px;
+}
+
+.sign {
+    border-radius: 2px;
+    background: #5094f2;
+    width: 172px;
+    position: relative;
+    margin-top: 38px;
+}
+
+.sign a {
+    color: #fff;
+    text-decoration: none;
+    font: 300 22px/44px 'Segoe WP', sans-serif;
+    padding-left: 44px;
+}
+
+.sales-wrapper {
+    width: 976px;
+    margin: auto;
+}
+
+.sign2 {
+    border-radius: 2px;
+    background: #2bc9ba;
+    width: 172px;
+    position: relative;
+    margin-top: 38px;
+}
+
+.sign2 a {
+    color: #fff;
+    text-decoration: none;
+    font: 300 22px/44px 'Segoe WP', sans-serif;
+    padding-left: 44px;
+}
+
+.sign2 a::before {
+    content: "";
+    background: url(../images/Shape\ 2.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin-left: 15px;
+}
+
+.sales-background {
+    background: url("../images/ret.png");
+    height: 8px;
+    margin: auto;
+}
+
+.list-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 68px;
+    text-align: center;
+}
+
+.lists-pensil span {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #5094f2;
+    position: relative;
+    display: inline-block;
+}
+
+.lists-tv span {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #d94748;
+    position: relative;
+    display: inline-block;
+}
+
+.lists-basket span {
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background: #ebbb11;
+    position: relative;
+    display: inline-block;
+}
+
+.pensil {
+    background: url(../images/sprite.png) no-repeat -95px -52px;
+    width: 78px;
+    height: 108px;
+    position: absolute;
+    top: 42px;
+    left: 56px;
+}
+
+.tv {
+    background: url(../images/sprite.png) no-repeat -261px -61px;
+    width: 95px;
+    height: 81px;
+    position: absolute;
+    top: 52px;
+    left: 46px;
+}
+
+.basket {
+    background: url(../images/sprite.png)no-repeat -420px -52px;
+    width: 98px;
+    height: 90px;
+    position: absolute;
+    top: 48px;
+    left: 46px;
+}
+
+.list-menu h3 {
+    font: 20px/44px 'Segoe WP N', sans-serif;
+    color: #5094f2;
+    padding-top: 28px;
+}
+
+.list-menu p {
+    font: 14px/normal 'Segoe WP N', sans-serif;
+    color: #909090;
+    text-align: center;
+}
+
+.shopping-wrapper {
+    width: 976px;
+    margin: auto;
+}
+
+.shopping-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 78px;
+    padding-bottom: 60px;
+}
+
+.shopping-basket {
+    text-align: center;
+}
+
+.shopping-basket h2 {
+    font: 42px/44px 'Segoe WP N', sans-serif;
+    color: #6f7173;
+    padding-bottom: 32px;
+}
+
+.shopping-text h3 {
+    font: 26px/35px 'Segoe WP N', sans-serif;
+    color: #6f7173;
+}
+
+.shopping-text p {
+    font: 300 15px/36px 'Segoe WP N', sans-serif;
+    color: #909090
+}
+
+.shopping-text {
+    padding-top: 60px;
+}
+
+footer {
+    border: 1px solid #e5e5e5;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info p {
+    padding-top: 36px;
+    padding-bottom: 40px;
+    font: 15px/36px 'Segoe WP N', sans-serif;
+    color: #909090;
+}
+
+.slider-container .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.slider-container {
+    background: url(../images/dsfsdfsdfds.png) no-repeat center;
+    background-size: cover;
+    margin: 0;
+}
+
+.slider .menu-text h1 {
+    font: 300 42px/44px 'Segoe WP', sans-serif;
+    color: rgba(255, 255, 255, .7);
+    padding-bottom: 12px;
+}
+
+.slider .menu-text p {
+    font: 300 26px/44px 'Segoe WP N', sans-serif;
+    color: rgba(255, 255, 255, .7);
+}
+
+.iphone-image {
+    margin-right: 100px;
+}
+
+.slick-arrow {
+    z-index: 1;
+    width: 24px;
+    height: 62px;
+}
+
+.slick-arrow.slick-prev {
+    left: 92px;
+}
+
+.slick-arrow.slick-next {
+    right: 92px;
+}
+
+.slick-arrow.slick-prev::before, .slick-arrow.slick-next::before {
+    content: '';
+    height: 100%;
+    display: block
+}
+
+.slick-arrow.slick-prev::before {
+    background-image: url('../images/arowleft.png');
+}
+
+.slick-arrow.slick-next::before {
+    background-image: url('../images/arowright.png');
+}
